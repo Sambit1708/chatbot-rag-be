@@ -4,3 +4,10 @@ pydantic-settings>=2.0.0
 motor>=3.6.0
 uvicorn[standard]>=0.30.0
 python-dotenv>=1.0.0
+pymongo
+langchain
+langchain-community
+langchain-text-splitters
+pypdf
+langchain-google-genai>=4.4.0
+google-genai>=2.20.0
