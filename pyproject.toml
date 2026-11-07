@@ -1,0 +1,24 @@
+[project]
+name = "chatbot-rag-be"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "google-genai>=2.20.0",
+    "langchain",
+    "langchain-community",
+    "langchain-google-genai>=4.4.0",
+    "langchain-text-splitters",
+    "motor>=3.6.0",
+    "pypdf",
+    "pymongo",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
